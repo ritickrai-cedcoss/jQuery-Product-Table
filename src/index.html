@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="main">
+            <form action="">
+                <label for="proSKU"> Product SKU &emsp; &nbsp;
+                    <input type="text" id="proSKU" name="proSKU" required>
+                </label>
+                <label for="proName"> Product Name &emsp;
+                    <input type="text" id="proName" name="proName" required>
+                </label>
+                <label for="proPrice"> Product Price &emsp;&nbsp;
+                    <input type="text" id="proPrice" name="proPrice" required>
+                </label>
+                <label for="proQty"> Product Quantity
+                    <input type="text" id="proQty" name="proQty" required>
+                </label>
+                <label for="submit">
+                    <input type="button" id="submit" name="Submit" value="Add to Product">
+                    <input type="button" id="update" name="Update" value="Update Product">
+                </label>
+            </form>
+        </div>
+        <div id="success">
+            <h4 class="notify">Product Added Successfully</h4>
+            <a href="#" class="close">X</a>
+        </div>
+        <div id="added">
+            <h4 class="notify">Product Updated Successfully</h4>
+            <a href="#" class="close">X</a>
+        </div>
+        <div id="fail">
+            <h4 class="notify">There is some problem.</h4>
+            <a href="#" class="close">X</a>
+        </div>
+        <div id="delNotify">
+            <h4 class="notify">Product Deleted Successfully</h4>
+            <a href="#" class="close">X</a>
+        </div>
+        <div id="result">
+
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>

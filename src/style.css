@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    padding: 5% 20%;
+}
+.main{
+    width: 100%;
+}
+.main label{
+    display: block;
+    margin-bottom: 2%;
+    font-size: 1rem;
+}
+
+.main label input{
+    margin-left: 15%;
+    padding: 1% 2%;
+}
+
+#submit{
+    margin-left: 0;
+    font-size: 0.8rem;
+    padding: 1% 2%;
+    margin-right: 4%;
+    margin-top: 2%;
+    border-radius: 5px;
+    border: 1px solid #c2c2c2;
+}
+#update{
+    margin-left: 0;
+    font-size: 0.8rem;
+    padding: 1% 2%;
+    margin-top: 2%;
+    display: none;
+    margin-right: 4%;
+    border-radius: 5px;
+    border: 1px solid #c2c2c2;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr, th {
+    padding: 2% 2%;
+}
+
+#success{
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: #7ED47E ;
+    overflow: hidden;
+    padding: 1% 1% 0.5% 2%;
+    margin-bottom: 3%;
+    display: none;
+}
+
+#fail{
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: #ff5733;
+    overflow: hidden;
+    padding: 1% 1% 0.5% 2%;
+    display: none;
+}
+
+.notify{
+    color: black;
+    font-size: 0.8rem;
+    float: left;
+}
+
+.close{
+    float: right;
+    font-size: 1rem;
+    text-decoration: none;
+}
+#delNotify{
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: #7ED47E ;
+    overflow: hidden;
+    padding: 1% 1% 0.5% 2%;
+    margin-bottom: 3%;
+    display: none;
+}
+
+#added{
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: #7ED47E ;
+    overflow: hidden;
+    padding: 1% 1% 0.5% 2%;
+    margin-bottom: 3%;
+    display: none;
+}
